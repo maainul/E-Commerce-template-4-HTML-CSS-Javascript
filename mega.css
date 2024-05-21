@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav {
+    background-color: #333;
+    color: white;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexitem {
+    display: flex;
+}
+
+.second-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.second-links li {
+    position: relative;
+}
+
+.second-links a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+.has-child .icon-small {
+    margin-left: 5px;
+}
+
+.mega {
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+}
+
+.has-child:hover .mega,
+.mega:hover {
+    display: block;
+}
+
+.mega .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mega .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mega h4 {
+    margin-top: 0;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.mega ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mega ul li {
+    margin-bottom: 10px;
+}
+
+.mega ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.mega ul li a:hover {
+    text-decoration: underline;
+}
