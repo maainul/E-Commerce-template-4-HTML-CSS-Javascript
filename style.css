@@ -674,7 +674,121 @@ form.search button {
 }
 
 /* Products */
+.trending .section-heading {
+    font-size: 2em;
+    font-weight: var(--fw6);
+    padding: 0.25em;
+    border-bottom: 2px solid var(--border-color);
+    padding-left: 2em;
+}
 
+.trending .container {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.trending .section-heading::before {
+    content: '';
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    border-radius: var(--percent50);
+    z-index: -1;
+    left: 1em;
+    background-color: var(--secondary-color);
+    opacity: .4;
+    border: 5px solid var(--border-color);
+}
+
+.products .offer .offer-img {
+    height: 300px;
+}
+
+.products .offer .media {
+    position: relative;
+    width: 200px;
+}
+
+.products .offer {
+    padding: 2em;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid var(--secondary-dark-color);
+}
+
+.products .offer .discount {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: var(--white-color);
+    border-radius: 50% 25%;
+    padding: 7px;
+    font-size: var(--font-small);
+    background-color: var(--secondary-dark-color);
+}
+
+.products .content .price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.products .content .price .current {
+    color: #ff6b6b;
+
+}
+
+.products .content .price .normal {
+    color: var(--light-text-color);
+    font-size: var(--font-smaller);
+    text-decoration: line-through;
+    padding-top: 10px;
+}
+
+.content h4 {
+    margin-top: 20px;
+}
+
+.content .stock {
+    font-size: var(--font-smaller);
+    color: var(--light-text-color);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.content .bar {
+    content: '';
+    height: 3px;
+    width: var(--percent100);
+    background-color: var(--secondary-dark-color);
+}
+
+.offer-time {
+    background-color: var(--border-color);
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.offer-time-group {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.offer-heading {
+    font-weight: var(--fw5);
+}
 
 /*-----------------
 * 15.RESPONSIVE
