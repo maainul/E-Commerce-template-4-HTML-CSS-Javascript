@@ -700,6 +700,7 @@ form.search button {
     border: 5px solid var(--border-color);
 }
 
+/* 
 .products .offer .offer-img {
     height: 300px;
 }
@@ -788,6 +789,28 @@ form.search button {
 
 .offer-heading {
     font-weight: var(--fw5);
+}
+
+
+
+
+.product-mini .media .offer-img {
+    width: 180px;
+} */
+
+.products .offer {
+    background-color: #794afa;
+}
+
+.product-mini {
+    width: var(--percent100);
+    background-color: red;
+    height: 200px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 33% auto;
 }
 
 /*-----------------
