@@ -1004,3 +1004,30 @@ button {
 .btn-secondary:hover {
     background-color: var(--primary-color);
 }
+
+/* footer */
+footer {
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+footer .container h4 {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+footer .container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .container ul li:hover {
+    color: #794afa;
+}
