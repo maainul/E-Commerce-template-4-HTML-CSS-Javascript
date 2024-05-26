@@ -913,5 +913,36 @@ form.search button {
 }
 
 /*-----------------
- 15.RESPONSIVE
+product-catrgory
 ------------------  */
+
+.product-catrgory {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-catrgory .item {
+    display: flex;
+    border-radius: 7px;
+    border: 1px solid var(--border-color);
+    padding: 1em;
+}
+
+.product-catrgory .item img {
+    height: 200px;
+}
+
+.product-catrgory .item .content h4 {
+    padding-bottom: 15px;
+}
+
+.product-catrgory .item .content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-catrgory .item .content .second-links {
+    text-decoration: underline;
+    color: #794afa;
+}
